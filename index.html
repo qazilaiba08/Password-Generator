@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="password-box">
+            <input type="text" placeholder="$pass@Gen8^" disabled />
+            <i class="bi bi-file-earmark-text copy-icon"></i>
+        </div>
+        <div class="range-box">
+            <input type="range" min="6" max="16" value="8" />
+            <span class="slider-number">8</span>
+        </div>
+        <button class="generate-button"> Generate Password</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
